@@ -14,7 +14,7 @@ module.exports = {
   description: "Destek Sistemi ayarlarsın.",
   options: [
     { name: "yetkili-rol", description: "Bir yetkili rolü seç.", type: 8, required: true },
-    { name: "log-kanalı", description: "Bir log kanalı seç.", type: 7, required: true },
+    { name: "log-kanalı", description: ".", type: 7, required: true },
   ],
   /**
    * @param {CommandInteraction} interaction
