@@ -5,7 +5,7 @@ function checkConfig() {
   if (!configFile.length) {
     writeFileSync(
       "./config.json",
-      JSON.stringify({ TOKEN: "Botunuzun tokenini buraya girin!" }, undefined, 2)
+      JSON.stringify({ TOKEN: "" }, undefined, 2)
     );
     console.warn("[CONFIG] Config dosyası sıfırdan oluşturuldu. Lütfen ayarları doldurunuz.");
     return false;
